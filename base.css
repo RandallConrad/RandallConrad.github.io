@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: soleil, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h4 {
+    font-family: soleil, sans-serif;
+    font-weight: 550;
+    font-size: 1.6em;
+}
+
+h5 {
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+p{
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+nav{
+    height: 8em;
+    display: flex;
+    align-items: center;
+}
+
+#skills{
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+#logo{
+    margin-top: .5em;
+    margin-left: .5em;
+    height: 80%;
+}
+
+#navLinks{
+    width: 80%;
+    display: inline-block;
+    flex: 1;
+    text-align: right;
+    
+
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.navLink{
+    margin: 0 .8em;
+}
+
+#splash{
+    height: 69vh;
+    background-color: aquamarine;
+    text-align: right;
+}
+
+#bigLogo{
+    margin: 5% 15%;
+    vertical-align: top;
+}
+
+/*WORD ANIMATION CLASSES*/
+
+#animating {
+    position: relative;
+}
+
+.word {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+  }
+
+.animationText{
+    position: absolute;
+    left: 23em;
+    top: 19em;
+    width: 50em;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+}
+
+.animationText p{
+    font-family: fatfrank, sans-serif;
+    font-weight: 700;
+    font-size: 2.8vw;
+}
+
+
+.letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+}
+  
+.letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+  
+.letter.behind {
+    transform: rotateX(-90deg);
+}
+  
+  .letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+/**/
+
+#experienceTitle{
+    margin-left: 9%;
+    margin-bottom: 1em;
+}
+
+.keireki{
+ 
+    height: 34vw;
+    max-height: 49em;
+}
+
+.keireki h4{
+    margin-top: 1.15em;
+}
+
+.keireki p{
+    margin-top: 1.15em;
+}
+
+/*DETAILS ON LEFT || IMAGE ON RIGHT*/
+.leftTitle{
+    position: absolute;
+    padding-top: .35em;
+    padding-left: 5%;
+    margin-bottom: .4em;
+}
+
+.textLeft{
+
+    vertical-align: top;
+    display: inline-block;
+    padding: 4em 0;
+    padding-left: 8%;
+    padding-top: 5%;
+    margin-right: 3%;
+    background-color: transparent;
+    width: 42%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.imgRight{
+    position: relative;
+    margin-left: -8%;
+    vertical-align: top;
+    display: inline-block;
+    width: 63%;
+    height: 100%;
+}
+
+.rightTriangleShape{
+    height: 100%;
+}
+
+#triangleRight {
+    position: relative;
+    height: 100%;
+  }
+  
+/*DETAILS ON RIGHT || IMAGE ON LEFT*/
+.rightTitle{
+    position: absolute;
+    padding-top: .35em;
+    padding-right: 5%;
+    margin-bottom: .4em;
+}
+
+.textRight{
+
+    vertical-align: top;
+    display: inline-block;
+    padding: 4em 0;
+    padding-right: 8%;
+    padding-top: 5%;
+    margin-left: 3%;
+    background-color: transparent;
+    width: 42%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.imgLeft{
+    position: relative;
+    margin-right: -8%;
+    vertical-align: top;
+    display: inline-block;
+    
+    width: 63%;
+    height: 100%;
+}
+  
+.leftTriangleShape{
+    height: 100%;
+}
+
+#triangleLeft {
+    position: relative;
+    height: 100%;
+    transform: scaleX(-1);
+  }
+
+
+/*BACKGROUND COLORS*/
+
+#RIT .imgRight{
+    background-color: #ee6f28;
+}
+#KUFS .imgLeft{
+    background-color: #1459a6;
+}
+#concertTech .imgRight{
+    background-color: #146926;
+}
+#researchAssistant .imgLeft{
+    background-color: #F5BE01;
+}
+
+
