@@ -39,35 +39,69 @@ p{
     font-size: 1.4em;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 nav{
-    height: 8em;
-    display: flex;
+    height: 5.5em;
+    display: fixed;
+    
+}
+
+#navBar{
+    background-color: white;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
     align-items: center;
+    display: flex;
+    z-index: 3;
+
+    box-shadow: 0 0 20px lime;
 }
 
 #logo{
     margin-top: .5em;
-    margin-left: .5em;
-    height: 80%;
+    margin-bottom: .5em;
+    margin-left: 2em;
+    display: inline-block;
+    width: 9%;
+    cursor: pointer;
 }
+
 
 #navLinks{
     width: 80%;
     display: inline-block;
     flex: 1;
     text-align: right;
+    margin-right: 1em;
     
+    /*why can i put text-decoration: none here?*/
 
     font-family: fatfrank, sans-serif;
-    font-weight: 400;
-    font-size: 1.8em;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+
+#navLinks :visited{
+    color: black; /*way to make this color = to default?*/
+}
+
+#navLinks :hover {
+    color: red
 }
 
 .navLink{
     margin: 0 .8em;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-#splash{
+#top{
     height: 69vh;
     background-color: aquamarine;
     text-align: right;
@@ -112,7 +146,7 @@ nav{
 .letter {
     display: inline-block;
     position: relative;
-    float: left;
+    /*float: left;*/
     transform: translateZ(25px);
     transform-origin: 50% 50% 25px;
 }
@@ -190,7 +224,7 @@ nav{
 
 #triangleRight {
     position: relative;
-    height: 100%;
+    height: 101%;
   }
   
 /*DETAILS ON RIGHT || IMAGE ON LEFT*/
@@ -234,7 +268,7 @@ nav{
 
 #triangleLeft {
     position: relative;
-    height: 100%;
+    height: 101%;
     transform: scaleX(-1);
   }
 
@@ -273,13 +307,11 @@ nav{
 
 
 #skills{
-    background-color: blueviolet;
-    padding: 2em 20%;
+    padding: 5em 20%;
     position: relative;
 }
 
 #skills ul{
-    background-color: white;
     list-style-type: none;
     vertical-align: top;
     display: inline-block;
@@ -301,52 +333,24 @@ nav{
 }
 
 .skillsCategory{
-    background-color: red;
     margin-top: 6%;
 }
 
-#audioSkills{
-    background-color: pink;
-}
-
-#otherSkills{
-    background-color: magenta;
-}
 
 
 
-
-
-
-#listLeft{
-    background-color: red;
-    display: inline-block;
-    
-    margin-top: 6em;
-    margin-left: 13%;
-    margin-bottom: 3em;
-    padding: 0 3em;
-
-}
-
-#listRight{
-    background-color: blue;
-    display: inline-block;
-
-    padding: 0 3em;
-}
 
 
 #projects{
     position: relative;
+    padding-bottom: 5em;
 }
 
 #seniorCapstone{
-    background-color: yellow;
     vertical-align: top;
     display: inline-block;
     padding-right: 4em;
-    padding-left: 8%;
+    padding-left: 15%;
     padding-top: 5%;
     margin-bottom: 3em;
     margin-right: 3%;
@@ -363,8 +367,7 @@ nav{
 
 #seniorCapstoneText{
     display: inline-block;
-    background-color: orange;
-    width: 30%;
+    width: 40%;
     margin-right: 2em;
     padding: 1em 1em;
     vertical-align: middle;
@@ -372,7 +375,6 @@ nav{
 
 #seniorCapstoneImage{
     display: inline-block;
-    background-color: green;
     width: 50%;
     text-align: center;
     vertical-align: middle;

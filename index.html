@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
     <!--Fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/oqh5qbs.css">
     <link rel="stylesheet" href="https://use.typekit.net/oqh5qbs.css">
@@ -10,17 +13,20 @@
 </head>
 <body>
     <nav>
-        <img src="assets/logo.png" id="logo" alt="logo">
-        <div id="navLinks">
-            <a id="navExperience" class="navLink">Experience</a>
-            <a id="navSkills" class="navLink">Skills</a>
-            <a id="navProject" class="navLink">Project</a>
-            <a id="navContact" class="navLink">Contact</a>
-            <a href="resume.pdf" id="navResume" class="navLink">Resume</a>
+        <div id="pageTop"></div>
+        <div id="navBar">
+            <img src="assets/logo.png" id="logo" alt="logo">
+            <div id="navLinks">
+                <a id="navExperience" class="navLink">Experience</a>
+                <a id="navSkills" class="navLink">Skills</a>
+                <a id="navProject" class="navLink">Project</a>
+                <a id="navContact" class="navLink">Contact</a>
+                <a href="resume.pdf" id="navResume" class="navLink">Resume</a>
+            </div>
         </div>
     </nav>
 
-    <section id="splash">
+    <section id="top">
         <div class="animationText">
             <p>Hi I'm Randall,</p>
             <p id="animating">
@@ -160,11 +166,13 @@
         </div>
     </section>
 
-    <section id="contactMe">
+    <section id="contact">
         Contact me
     </section>
 
 
     <script src="wordRotate.js"></script>
+    <script src="scrollTo.js"></script>
+    <script src="hideNav.js"></script>
 </body>
 </html>
