@@ -64,7 +64,7 @@ nav{
     display: flex;
     z-index: 3;
 
-    box-shadow: 0 0 20px lime;
+    box-shadow: 0 0 20px rgba(124, 165, 255, 0.87);
 }
 
 #logo{
@@ -108,7 +108,7 @@ nav{
 
 #top{
     height: 69vh;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     text-align: right;
 }
 
@@ -169,6 +169,25 @@ nav{
     transform: rotateX(0deg);
     transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.wisteria {
+    color: #8e44ad;
+}
+  
+.belize {
+    color: #2980b9;
+}
+  
+.pomegranate {
+    color: #c0392b;
+}
+  
+.green {
+    color: #16a085;
+}
+
+
+
 /**/
 
 #experienceTitle{
@@ -387,6 +406,7 @@ nav{
 }
 
 #capstoneImage{
-
+    box-shadow: 0px 0px 20px #7e7e7e;
      width: 50%;
+     border-radius: 10px;
 }
