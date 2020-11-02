@@ -7,24 +7,28 @@ h1 {
     font-family: fatfrank, sans-serif;
     font-weight: 400;
     font-size: 3.4em;
+    font-size: calc(36px + (70-36)*(100vw - 1280px)/(2560-1280));
 }
 
 h2 {
     font-family: fatfrank, sans-serif;
     font-weight: 400;
     font-size: 3em;
+    font-size: calc(32px + (64-32)*(100vw - 1280px)/(2560-1280));
 }
 
 h3 {
     font-family: soleil, sans-serif;
     font-weight: 700;
     font-size: 3em;
+    font-size: calc(32px + (48-32)*(100vw - 1280px)/(2560-1280));
 }
 
 h4 {
     font-family: soleil, sans-serif;
     font-weight: 550;
     font-size: 1.6em;
+    font-size: calc(21px + (27-21)*(100vw - 1280px)/(2560-1280));
 }
 
 h5 {
@@ -36,7 +40,8 @@ h5 {
 p{
     font-family: soleil, sans-serif;
     font-weight: 400;
-    font-size: 1.4em;
+    /*font-size: 1.4em;*/
+    font-size: calc(16px + (16-20)*(100vw - 1280px)/(2560-1280));
 }
 
 body{
@@ -198,7 +203,7 @@ nav{
 
     vertical-align: top;
     display: inline-block;
-    padding-right: 4em;
+    padding-right: 1em;
     padding-left: 8%;
     padding-top: 5%;
     margin-right: 3%;
@@ -240,8 +245,8 @@ nav{
     vertical-align: top;
     display: inline-block;
     
-    padding-left: 6em;
-    padding-right: 8%;
+    padding-left: 3.5%;
+    padding-right: 3%;
     padding-top: 5%;
     padding-bottom: 3em;
     margin-left: 3%;
@@ -264,6 +269,7 @@ nav{
   
 .leftTriangleShape{
     height: 100%;
+    margin-left: -1px;
 }
 
 #triangleLeft {
