@@ -6,28 +6,28 @@
 h1 {
     font-family: fatfrank, sans-serif;
     font-weight: 400;
-    font-size: 3.4em;
+    /*font-size: 3.4em;*/
     font-size: calc(36px + (70-36)*(100vw - 1280px)/(2560-1280));
 }
 
 h2 {
     font-family: fatfrank, sans-serif;
     font-weight: 400;
-    font-size: 3em;
+    /*font-size: 3em;*/
     font-size: calc(32px + (64-32)*(100vw - 1280px)/(2560-1280));
 }
 
 h3 {
     font-family: soleil, sans-serif;
     font-weight: 700;
-    font-size: 3em;
+    /*font-size: 3em;*/
     font-size: calc(32px + (48-32)*(100vw - 1280px)/(2560-1280));
 }
 
 h4 {
     font-family: soleil, sans-serif;
     font-weight: 550;
-    font-size: 1.6em;
+    /*font-size: 1.6em;*/
     font-size: calc(21px + (27-21)*(100vw - 1280px)/(2560-1280));
 }
 
