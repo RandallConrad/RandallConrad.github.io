@@ -33,11 +33,23 @@
     <nav>
         <div id="pageTop"></div>
         <div id="navBar">
-            <img src="assets/logo.png" id="logo" alt="logo">
+            <div class="navLogo">
+                    <div class="logoBox">
+                        RC
+                    </div>
+                    <div class="navLogoText">
+                            <span class="first">
+                            Randall
+                            </span> 
+                            <span class="second">
+                            Conrad
+                            </span>  
+                    </div>
+                </div>
             <div id="navLinks">
                 <a id="navExperience" class="navLink">Experience</a>
                 <a id="navSkills" class="navLink">Skills</a>
-                <a id="navProject" class="navLink">Project</a>
+                <a id="navProject" class="navLink">Projects</a>
                 <a id="navContact" class="navLink">Contact</a>
                 <a href="resume.pdf" id="navResume" class="navLink">Resume</a>
             </div>
@@ -54,7 +66,10 @@
             <span class="word green">A Generalist.</span>
             </p>
         </div>
-        <img src="assets/bigLogo.png" id="bigLogo" alt="bigLogo">
+        <div id="bigLogoContainer">
+            <div class="animationLogo">R</div>
+            <!--<img src="assets/bigLogo.png" id="bigLogo" alt="bigLogo">-->
+        </div>
     </section>
 
     <section id="experience">
@@ -192,5 +207,6 @@
     <script src="scrollTo.js"></script>
     <script src="hideNav.js"></script>
     <script src="hideLoader.js"></script>
+    <script src="animateNavLogo.js"></script>
 </body>
 </html>

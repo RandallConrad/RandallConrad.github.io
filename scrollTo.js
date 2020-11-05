@@ -1,6 +1,6 @@
 $(document).ready(function ()
 {
-    $("#logo").click(function (){
+    $(".navLogo").click(function (){
         $('html, body').animate({
             scrollTop: $("#pageTop").offset().top
         }, 1000);
