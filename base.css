@@ -127,10 +127,10 @@ nav{
 
 #navBar{
     background-color: white;
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s ease-in-out;
     align-items: center;
     display: flex;
     z-index: 3;
@@ -621,15 +621,14 @@ to {
 }
 
 #contact{
-    background-color: red;
     height: 50vh;
+    background-color: rgb(133, 133, 133);
 }
 
 #contactMe{
     display: inline-block;
-    background-color: blueviolet;
     margin-left: 15%;
-    width: 43%;
+    width: 38%;
 }
 
 #contactMe a{
@@ -667,12 +666,18 @@ to {
 
 #contactText{
     display: inline-block;
-    background-color: blue;
-    width: 10%;
+    width: 25%;
+    cursor: default;
+}
+
+#contactText p{
+    font-family: 'FatFrank', sans-serif;
+    font-size: calc(64px + (64-100)*(100vw - 1280px)/(2560-1280));
 }
 
 footer{
     font-family: 'soleil', sans-serif;
     font-weight: 550;
     font-size: 16px;
+    background-color: rgb(133, 133, 133);
 }
