@@ -222,8 +222,6 @@ nav{
     flex: 1;
     text-align: right;
     margin-right: 1em;
-    
-    /*why can i put text-decoration: none here?*/
 
     font-family: fatfrank, sans-serif;
     font-weight: 300;
@@ -232,7 +230,7 @@ nav{
 
 
 #navLinks :visited{
-    color: black; /*way to make this color = to default?*/
+    color: black;
 }
 
 #navLinks :hover {
@@ -246,15 +244,16 @@ nav{
 }
 
 #top{
-    height: 55vh;
+    height: 73vh;
     /*background-color: aquamarine;*/
     text-align: right;
 }
 
 #bigLogoContainer{
+    position: absolute;
     display: block;
-    margin-top: 10%;
-    margin-left: 56%;
+    top: 32%;
+    left: 56%;
 }
 
 /*BIG LOGO ANIMATION*/
@@ -344,8 +343,8 @@ to {
 
 .animationText{
     position: absolute;
-    left: 23em;
-    top: 22vw;
+    left: 20%;
+    top: 42%;
     width: 50em;
     vertical-align: top;
     display: inline-block;
@@ -617,6 +616,63 @@ to {
 
 #capstoneImage{
     box-shadow: 0px 0px 20px #7e7e7e;
-     width: 50%;
-     border-radius: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#contact{
+    background-color: red;
+    height: 50vh;
+}
+
+#contactMe{
+    display: inline-block;
+    background-color: blueviolet;
+    margin-left: 15%;
+    width: 43%;
+}
+
+#contactMe a{
+    font-family: 'soleil', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+}
+
+.contactLinks:visited{
+    color: black;
+    opacity: 75%;
+}
+
+.contactLinks:hover{
+    opacity: 75%;
+}
+
+#contactLinkedin{
+    display: inline-block;
+    margin: 3em 0;
+}
+
+#contactEmail{
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.contactLogo{
+    width: 3em;
+    transform: translateY(40%);
+    margin-right: 0.25em;
+}
+
+#contactText{
+    display: inline-block;
+    background-color: blue;
+    width: 10%;
+}
+
+footer{
+    font-family: 'soleil', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
 }
