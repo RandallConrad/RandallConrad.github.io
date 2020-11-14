@@ -618,6 +618,57 @@ to {
     border-radius: 10px;
 }
 
+#seniorCapstoneLink{
+    display: inline-block;
+    width: 43%;
+    margin-left: 10%;
+    vertical-align: middle;
+    margin-bottom: 2em;
+}
+
+#seniorCapstoneLink strong{
+    font-family: soleil, sans-serif;
+    font-weight: 750;
+    /*font-size: 1.6em;*/
+    font-size: calc(21px + (27-21)*(100vw - 1280px)/(2560-1280));
+}
+
+#seniorCapstoneLink p{
+    margin-left: 1em;
+}
+
+#seniorCapstoneLinkHolder{
+    box-shadow: 0px 0px 20px #7e7e7e;
+    margin-top: 3em;
+    border-radius: 10px;
+    margin-right: 10%;
+}
+
+#scl{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    margin-left: 8%;
+    padding: 2em 0;
+}
+
+#researchPaperLink{
+    font-family: fatfrank, sans-serif;
+    font-size: calc(21px + (38-21)*(100vw - 1280px)/(2560-1280));
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#researchPaperLink:visited{
+    color: inherit;
+}
+
+#researchPaperLink:hover{
+    color: lightskyblue
+}
+
+
+
 #contact{
     height: 50vh;
     background-color: rgb(133, 133, 133);
