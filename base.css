@@ -379,20 +379,20 @@ to {
     transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.wisteria {
+.color1 {
     color: #ee6f28;
 }
   
-.belize {
+.color2 {
     color: #2274a5;
 }
   
-.pomegranate {
-    color: #880d1e;
+.color3 {
+    color: #55d170;
 }
   
-.green {
-    color: #093824;
+.color4 {
+    color: #b4a519;
 }
 
 /**/
@@ -514,10 +514,10 @@ to {
     background-color: #2274a5;
 }
 #concertTech .imgRight{
-    background-color: #093824;
+    background-color: #55d170;
 }
 #researchAssistant .imgLeft{
-    background-color: #880d1e;
+    background-color: #fae315;
 }
 
 
