@@ -670,8 +670,8 @@ to {
 
 
 #contact{
-    height: 50vh;
-    background-color: rgb(133, 133, 133);
+    height: 47vh;
+    background-color:white;
 }
 
 #contactMe{
@@ -715,7 +715,7 @@ to {
 
 #contactText{
     display: inline-block;
-    width: 25%;
+    width: 41%;
     cursor: default;
 }
 
@@ -728,5 +728,5 @@ footer{
     font-family: 'soleil', sans-serif;
     font-weight: 550;
     font-size: 16px;
-    background-color: rgb(133, 133, 133);
+    background-color: white;
 }
