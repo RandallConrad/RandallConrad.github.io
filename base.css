@@ -260,7 +260,7 @@ nav{
 :root {
     --textColor: black;
     --colorPrimary: #2274a5;
-    --colorSecondary: lightgray;
+    --colorSecondary: lightcyan;
     --logoSize: 19vw;
     --fontFamily: 'fatfrank', sans-serif;
     --animationSpeed: 90s;
